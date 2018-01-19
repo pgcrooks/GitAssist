@@ -1,0 +1,37 @@
+{
+  "id": "e8a203f7-1b8e-4c91-a583-223f04c82015",
+  "name": "GetUserIssues",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "afc5369d-1389-47c6-a853-ef52b8837bd9",
+          "required": true,
+          "dataType": "@UserName",
+          "name": "UserName",
+          "value": "$UserName",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "User issues are"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493891018,
+  "fallbackIntent": false,
+  "events": []
+}

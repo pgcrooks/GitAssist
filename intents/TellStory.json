@@ -1,0 +1,35 @@
+{
+  "id": "d1d568a3-f7e0-4ee0-b7b3-69c41eb24c71",
+  "name": "TellStory",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "This one time, I made a commit. It was awful",
+            "When I was a little robot, I tried to merge a pull request with over 9000 commits in it. I haven\u0027t been the same since.",
+            "Git is my second best friend. After you.",
+            "Never drink and git",
+            "Git is 2 parts love, 1 part honey badger",
+            "I like big butts and I cannot lie"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493910681,
+  "fallbackIntent": false,
+  "events": []
+}

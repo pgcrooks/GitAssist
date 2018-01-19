@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c1cc3a25-8afc-4126-9058-53d2fb93ca16",
+    "data": [
+      {
+        "text": "I\u0027d like to create a ticket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493890336
+  },
+  {
+    "id": "a274824c-ce4e-47d8-b089-1bf317514fef",
+    "data": [
+      {
+        "text": "I want to create an issue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493890336
+  }
+]

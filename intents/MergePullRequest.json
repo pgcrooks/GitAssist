@@ -1,0 +1,36 @@
+{
+  "id": "a00cfbaf-b096-4a6b-bc04-2d53be7511e3",
+  "name": "MergePullRequest",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a7243387-23e8-4edb-84e0-e73733a59d73",
+          "dataType": "@sys.number",
+          "name": "PullRequestId",
+          "value": "$PullRequestId",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m confused"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493916137,
+  "fallbackIntent": false,
+  "events": []
+}

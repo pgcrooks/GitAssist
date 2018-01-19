@@ -1,0 +1,46 @@
+[
+  {
+    "id": "c25ba9aa-ab1d-4917-bdf3-f75d1442da14",
+    "data": [
+      {
+        "text": "How many issues does ",
+        "userDefined": false
+      },
+      {
+        "text": "Sean",
+        "alias": "UserName",
+        "meta": "@UserName",
+        "userDefined": true
+      },
+      {
+        "text": " have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493890481
+  },
+  {
+    "id": "ab9ff038-01fc-41f8-9663-054d2897aa19",
+    "data": [
+      {
+        "text": "Tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "Colin",
+        "alias": "UserName",
+        "meta": "@UserName",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s issues",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493890481
+  }
+]

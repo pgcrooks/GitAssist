@@ -1,0 +1,26 @@
+[
+  {
+    "id": "edd1d9cc-3bab-427c-bbac-360fa38db0f0",
+    "data": [
+      {
+        "text": "Close an issue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493910121
+  },
+  {
+    "id": "af99220e-2aaf-4ae0-bcac-9cbfdc978ae8",
+    "data": [
+      {
+        "text": "Close the issue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493910121
+  }
+]

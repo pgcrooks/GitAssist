@@ -1,0 +1,44 @@
+{
+  "id": "23d420c7-31bc-470c-801d-104acd739f38",
+  "name": "CloseIssue",
+  "auto": true,
+  "contexts": [
+    "issue"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "21a1776c-196f-4858-9e14-146998cfa695",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "IssueId",
+          "value": "#issue.IssueId",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s the issue ID?"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Issue $IssueId has been closed"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493910242,
+  "fallbackIntent": false,
+  "events": []
+}

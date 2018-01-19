@@ -1,0 +1,38 @@
+{
+  "description": "Github integration",
+  "language": "en",
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "invocationName": "source helper",
+    "project": "gitassist-ydwdqr",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "2fbe6742-e6ee-4c74-8b90-9e70c59568d4"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V1"
+  },
+  "defaultTimezone": "Europe/Belfast",
+  "webhook": {
+    "url": "https://gitassistweb20170504114645.azurewebsites.net/api/assistant",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": false,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": false
+}

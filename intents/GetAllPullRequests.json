@@ -1,0 +1,28 @@
+{
+  "id": "ca6db1a9-9887-4c41-b0cf-da6a3c8feb59",
+  "name": "GetAllPullRequests",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Not a clue sorry"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493907421,
+  "fallbackIntent": false,
+  "events": []
+}

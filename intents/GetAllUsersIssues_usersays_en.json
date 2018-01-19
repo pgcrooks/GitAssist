@@ -1,0 +1,26 @@
+[
+  {
+    "id": "d63f469d-cb2a-40ec-8b4b-05b595615d91",
+    "data": [
+      {
+        "text": "How many issues does each user have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493899373
+  },
+  {
+    "id": "da95e571-c714-42d7-9cfb-e04df6351dc9",
+    "data": [
+      {
+        "text": "I want to know all user issues",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

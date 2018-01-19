@@ -1,0 +1,48 @@
+{
+  "id": "3ee3587c-cae4-4f8a-acaa-ffa0a0935b8b",
+  "name": "GetUser",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7bfdf878-f398-4e03-b2fd-7eb6d3715466",
+          "required": true,
+          "dataType": "@UserName",
+          "name": "UserName",
+          "value": "$UserName",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Who do you want to know about?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Well, $UserName is a complete legend",
+            "$UserName and I go way back, I don\u0027t know where to start",
+            "$UserName and I don\u0027t talk anymore, surely there\u0027s something else I can help you with?",
+            "I don\u0027t know much about $UserName, but he is a fine specimen of a person"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493902027,
+  "fallbackIntent": false,
+  "events": []
+}

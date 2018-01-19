@@ -1,0 +1,57 @@
+{
+  "id": "ba347fe3-b97c-43c0-8452-6b9b9fbd4b39",
+  "name": "AssignIssue",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6ac4643a-583c-4196-933d-7a8c27061dae",
+          "required": true,
+          "dataType": "@UserName",
+          "name": "UserName",
+          "value": "$UserName",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Who should I assign?"
+            }
+          ],
+          "defaultValue": "issue.IssueId",
+          "isList": false
+        },
+        {
+          "id": "6b4ceb71-59e6-4cbe-85a9-0b2ea4a7d34a",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "IssueId",
+          "value": "",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s the issue ID?"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I tried to assign"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493916188,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "f268e598-8737-4b75-99a9-2f051290d7ef",
+    "data": [
+      {
+        "text": "I want to assign a user",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493906300
+  },
+  {
+    "id": "d15f79f1-9bd6-4091-bb9c-e93dc5d3fb4d",
+    "data": [
+      {
+        "text": "I want to add a user to an issue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493891148
+  },
+  {
+    "id": "22f71368-d1e6-4ded-908b-e0d64ee98649",
+    "data": [
+      {
+        "text": "I want to add ",
+        "userDefined": false
+      },
+      {
+        "text": "paul",
+        "alias": "UserName",
+        "meta": "@UserName",
+        "userDefined": false
+      },
+      {
+        "text": " to issue ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493907848
+  }
+]

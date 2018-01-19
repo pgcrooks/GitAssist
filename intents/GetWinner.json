@@ -1,0 +1,28 @@
+{
+  "id": "2a3e32de-6077-4298-b2bc-e3ba230790af",
+  "name": "GetWinner",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "My one. My only. My Google Home Boys!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493918314,
+  "fallbackIntent": false,
+  "events": []
+}

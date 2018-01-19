@@ -1,0 +1,28 @@
+{
+  "id": "cbff116e-6c3e-4eb8-8aba-6797aac62813",
+  "name": "GetUserFewestIssues",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493915750,
+  "fallbackIntent": false,
+  "events": []
+}

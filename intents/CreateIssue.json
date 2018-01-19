@@ -1,0 +1,79 @@
+{
+  "id": "a0a4f01d-144c-4973-8d16-a6dc7b66e191",
+  "name": "CreateIssue",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "issue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "768c7d0a-03e7-4888-8879-4caabeca93bf",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "IssueTitle",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the title?"
+            },
+            {
+              "lang": "en",
+              "value": "What should I call it?"
+            }
+          ]
+        },
+        {
+          "id": "d46ee1dd-33ae-4089-a2b6-e6f5c363be00",
+          "required": true,
+          "dataType": "@UserName",
+          "name": "UserName",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Who should I assign it to?"
+            },
+            {
+              "lang": "en",
+              "value": "Who is the assignee?"
+            }
+          ]
+        },
+        {
+          "id": "71f8efa7-7510-4b9c-8af6-909e32ccc569",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "IssueDescription",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the description?"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "OK boiler plate response"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493911511,
+  "fallbackIntent": false,
+  "events": []
+}

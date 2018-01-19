@@ -1,0 +1,38 @@
+[
+  {
+    "id": "4bd9479d-9ce8-4efc-a33d-159734c82a20",
+    "data": [
+      {
+        "text": "who\u0027s the fewest issues",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493915750
+  },
+  {
+    "id": "86470574-da56-43de-befe-cbbf288a9b4f",
+    "data": [
+      {
+        "text": "Which user has the least issues?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493915750
+  },
+  {
+    "id": "47bfd95c-07f7-4501-8e41-df6f8b6c47c4",
+    "data": [
+      {
+        "text": "Who has the fewest issues?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1493915750
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "id": "311223e5-185d-458d-87fe-54e0dc2ec28f",
+  "name": "GetIssue",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "issue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "73a3669d-9f30-4684-8da9-12419d2a6044",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "IssueId",
+          "value": "$IssueId",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s the issue ID?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Issue $IssueId is assigned to $Username and the title is $IssueTitle"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493910263,
+  "fallbackIntent": false,
+  "events": []
+}

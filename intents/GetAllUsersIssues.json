@@ -1,0 +1,28 @@
+{
+  "id": "0d32a123-354a-4f08-b34d-465697d15d81",
+  "name": "GetAllUsersIssues",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here\u0027s you go: $UserIssueList"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493908433,
+  "fallbackIntent": false,
+  "events": []
+}

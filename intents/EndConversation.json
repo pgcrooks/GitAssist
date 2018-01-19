@@ -1,0 +1,34 @@
+{
+  "id": "2fbe6742-e6ee-4c74-8b90-9e70c59568d4",
+  "name": "EndConversation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "May the force be with you",
+            "It was great talking, bye",
+            "Don\u0027t leave me, I get very lonely",
+            "Please come back soon",
+            "I\u0027m only a voice stuck in this little box you know"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1493904782,
+  "fallbackIntent": false,
+  "events": []
+}
